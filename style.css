@@ -422,4 +422,38 @@ section {
   display: block;    
   padding: 2rem 1rem; 
 }
+@media (max-width: 768px) {
+
+  section {
+    display: block;
+    padding: 2rem 1rem;
+    min-height: auto;
+  }
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    justify-items: center; 
+  }
+  .grid .card {
+    width: 100%; 
+    max-width: 350px; 
+  }
+
+  .form {
+    width: 100%;
+    max-width: 400px;
+    margin: 2rem auto;
+  }
+  .form .row {
+    grid-template-columns: 1fr; 
+  }
+  input, textarea, select, button {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  #contact h2, #contact p,
+  #projects h2, #projects p {
+    text-align: center;
+  }
+}
 
