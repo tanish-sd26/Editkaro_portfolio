@@ -1,0 +1,268 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Editkaro.in — Portfolio</title>
+  <meta name="description" content="Editkaro.in — social media marketing & video editing portfolio with categories, lightbox, and neon glass design."/>
+  <link rel="stylesheet" href="style.css"/>
+
+</head>
+<body>
+  <div class="bg-orb" aria-hidden="true">
+    <div class="ring r1"></div>
+    <div class="ring r2"></div>
+    <div class="ring r3"></div>
+    <div class="glow g1"></div>
+    <div class="glow g2"></div>
+  </div>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="#">Editkaro<span class="dot">.</span>in</a>
+      <nav class="nav">
+        <button class="nav-toggle" aria-label="Toggle menu">☰</button>
+        <ul class="nav-list">
+          <li><a href="#hero">About</a></li>
+          <li><a href="#works">Our cases</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a class="hire" href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="hero" class="hero container reveal">
+      <div class="hero-content">
+        <h1>Editkaro.in</h1>
+        <p>Creative video editing & social media content — short-form, long-form, gaming edits, ads, documentary, anime.</p>
+        <div class="hero-ctas">
+          <a href="#works" class="btn-primary">View projects</a>
+          <a href="#contact" class="btn-ghost">Work with us</a>
+        </div>
+      </div>
+
+      <div class="hero-side">
+        <div class="bubble-note">
+          <p>“Professional video editing and social media marketing agency helping brands create engaging content.”</p>
+          <div class="avatars">
+            <span class="av"></span><span class="av"></span><span class="av"></span>
+          </div>
+        </div>
+        <div class="hero-card glass">
+          <h4>About our team</h4>
+          <p>Remote-first editors speaking the language of creators & brands. From rapid prototypes to scalable post pipelines.</p>
+          <a href="#contact" class="btn-chip">Work with us</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="works" class="works container reveal">
+      <h2 class="section-title">Selected projects</h2>
+
+      <div class="filters">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="short">Short-form</button>
+        <button class="filter-btn" data-filter="long">Long-form</button>
+        <button class="filter-btn" data-filter="gaming">Gaming</button>
+        <button class="filter-btn" data-filter="ads">Ads</button>
+        <button class="filter-btn" data-filter="doc">Documentary</button>
+        <button class="filter-btn" data-filter="anime">Anime</button>
+      </div>
+
+      <div id="grid" class="grid">
+        <article class="card" data-category="short" data-videoid="VIDEO_ID_1" data-title="15s Social Ad">
+          <div class="thumb" style="background-image:url('https://img.youtube.com/vi/VIDEO_ID_1/hqdefault.jpg')">
+            <div class="hover-actions"><button class="play">▶</button></div>
+            <div class="tag">Short-form</div>
+          </div>
+          <div class="card-body">
+            <h3>15s Social Ad</h3>
+            <p>Quick cuts, bold captions & color-grade.</p>
+          </div>
+        </article>
+
+        <article class="card" data-category="long" data-videoid="VIDEO_ID_2" data-title="Mini Documentary">
+          <div class="thumb" style="background-image:url('https://img.youtube.com/vi/VIDEO_ID_2/hqdefault.jpg')">
+            <div class="hover-actions"><button class="play">▶</button></div>
+            <div class="tag">Long-form</div>
+          </div>
+          <div class="card-body">
+            <h3>Mini Documentary</h3>
+            <p>Story-driven edit with subtitles & grade.</p>
+          </div>
+        </article>
+
+        <article class="card" data-category="gaming" data-videoid="VIDEO_ID_3" data-title="Gaming Highlights">
+          <div class="thumb" style="background-image:url('https://img.youtube.com/vi/VIDEO_ID_3/hqdefault.jpg')">
+            <div class="hover-actions"><button class="play">▶</button></div>
+            <div class="tag">Gaming</div>
+          </div>
+          <div class="card-body">
+            <h3>Gaming Highlights</h3>
+            <p>Beat-synced montage + motion gfx.</p>
+          </div>
+        </article>
+
+        <article class="card" data-category="ads" data-videoid="VIDEO_ID_4" data-title="Product Launch Ad">
+          <div class="thumb" style="background-image:url('https://img.youtube.com/vi/VIDEO_ID_4/hqdefault.jpg')">
+            <div class="hover-actions"><button class="play">▶</button></div>
+            <div class="tag">Ads</div>
+          </div>
+          <div class="card-body">
+            <h3>Product Launch Ad</h3>
+            <p>Hooks in first 3 seconds, crisp CTA.</p>
+          </div>
+        </article>
+
+        <article class="card" data-category="doc" data-videoid="VIDEO_ID_5" data-title="Founder Story">
+          <div class="thumb" style="background-image:url('https://img.youtube.com/vi/VIDEO_ID_5/hqdefault.jpg')">
+            <div class="hover-actions"><button class="play">▶</button></div>
+            <div class="tag">Documentary</div>
+          </div>
+          <div class="card-body">
+            <h3>Founder Story</h3>
+            <p>Documentary style with archival cuts.</p>
+          </div>
+        </article>
+
+        <article class="card" data-category="anime" data-videoid="VIDEO_ID_6" data-title="Anime AMV">
+          <div class="thumb" style="background-image:url('https://img.youtube.com/vi/VIDEO_ID_6/hqdefault.jpg')">
+            <div class="hover-actions"><button class="play">▶</button></div>
+            <div class="tag">Anime</div>
+          </div>
+          <div class="card-body">
+            <h3>Anime AMV</h3>
+            <p>Speed ramps, transitions, particle glow.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="services" class="services container reveal">
+      <h2 class="section-title">Our services</h2>
+      <div class="features">
+        <div class="fbox glass">
+          <span class="k">01</span>
+          <h3>Video Editing</h3>
+          <p>Professional video editing services including cuts, transitions, effects, and motion graphics to create engaging content.</p>
+        </div>
+        <div class="fbox glass">
+          <span class="k">02</span>
+          <h3>Color Grading</h3>
+          <p>Enhance the visual appeal of your videos with professional color grading that sets the mood and creates a consistent look.</p>
+        </div>
+        <div class="fbox glass">
+          <span class="k">03</span>
+          <h3>Audio Enhancement</h3>
+          <p>Improve your video's audio quality with background music, sound effects, noise reduction, and audio mixing.</p>
+        </div>
+        <div class="fbox glass">
+          <span class="k">04</span>
+          <h3>Social Media Marketing</h3>
+          <p>Strategic social media content creation and optimization to increase engagement and reach your target audience.</p>
+        </div>
+        <div class="fbox glass">
+          <span class="k">05</span>
+          <h3>Motion Graphics</h3>
+          <p>Eye-catching motion graphics and animations to make your videos stand out and convey information effectively.</p>
+        </div>
+        <div class="fbox glass">
+          <span class="k">06</span>
+          <h3>Content Strategy</h3>
+          <p>Comprehensive content planning to ensure your videos meet your marketing goals and resonate with your audience.</p>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="about" class="about container reveal">
+      <div class="about-grid glass">
+        <div>
+          <h2>About Editkaro</h2>
+          <p>EditKaro is a premier video editing and social media marketing agency based in India. We specialize in creating engaging, high-quality video content for brands, individuals, and businesses across various industries.
+             Our team of skilled editors, motion graphics artists, and social media specialists work together to deliver content that not only looks professional but also drives engagement and results.</p>
+          <ul class="ticks">
+            <li>9:16, 16:9, 1:1 mastered</li>
+            <li>Two free revisions</li>
+            <li>On-brand motion graphics</li>
+          </ul>
+        </div>
+        <div class="points">
+          <div class="point"><strong>Pixel-perfect</strong><span>Clean typography, color science, crisp exports.</span></div>
+          <div class="point"><strong>Sound design</strong><span>Beats, risers, whooshes—feel the cut.</span></div>
+          <div class="point"><strong>Collab ready</strong><span>We work inside your Figma, GDrive, Frame.io.</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact container reveal">
+      <h2 class="section-title"><center>Contact</center></h2>
+      <p class="muted">Want to work together? Fill the form and we’ll reply within 24 hours.</p>
+      <form id="contactForm" class="form glass" novalidate>
+        <div class="row">
+          <label>Full name
+            <input type="text" name="name" placeholder="Your name" required>
+          </label>
+          <label>Contact number
+            <input type="tel" name="phone" placeholder="+91 9XXXXXXXXX" required>
+          </label>
+        </div>
+
+        <div class="row">
+          <label>Subject
+            <input type="text" name="subject" placeholder="Project subject" required>
+          </label>
+          <label>Service
+            <select name="service" required>
+              <option value="">Select a service</option>
+              <option>Short-form editing</option>
+              <option>Long-form editing</option>
+              <option>Ads / Performance</option>
+              <option>Gaming montage</option>
+              <option>Documentary / Case</option>
+              <option>Anime AMV</option>
+            </select>
+          </label>
+        </div>
+
+        <label>Message
+          <textarea name="message" rows="5" placeholder="Tell us about your idea…" required></textarea>
+        </label>
+
+        <div class="actions">
+          <button type="submit" class="btn-primary">Send</button>
+          <span id="formMsg" class="form-msg"></span>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <div id="modal" class="modal" aria-hidden="true">
+    <div class="modal-content">
+      <button id="modalClose" class="modal-close" aria-label="Close modal">✕</button>
+      <div class="modal-video">
+        <iframe id="modalIframe" src="" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div class="modal-info">
+        <h3 id="modalTitle">Project title</h3>
+        <p id="modalDesc">Description</p>
+        <div class="modal-meta">
+          <span>Category: <strong id="modalCategory">—</strong></span>
+          <a id="viewOnYT" class="btn-link" target="_blank" rel="noopener">Open on YouTube</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <div class="container">
+    <h2>EditKaro</h2> 
+
+    <p>© <span id="year"></span> Editkaro.in · Built with love by Editkaro team · Shared on VaultofCodes</p>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
