@@ -199,11 +199,24 @@ body{
     background:linear-gradient(90deg,var(--accentA),var(--accentB));
     color:#120a18; border:0
     }
-.grid{
-    display:grid;
-    grid-template-columns:repeat(3,1fr);
-    gap:1rem
-    }
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+@media (max-width: 1024px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr); /* tablet */
+  }
+}
+
+@media (max-width: 720px) {
+  .grid {
+    grid-template-columns: 1fr; /* mobile */
+  }
+}
+
 .card{
     border-radius:14px;
     overflow:hidden;
@@ -405,8 +418,8 @@ html{
   .nav-toggle{display:block}
 }
 section {
-  min-height: 100vh; 
-  display: flex;
-  align-items: center; 
-  justify-content: center;
+  min-height: auto;   
+  display: block;    
+  padding: 2rem 1rem; 
 }
+
